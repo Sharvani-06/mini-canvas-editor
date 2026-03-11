@@ -1,0 +1,52 @@
+*{
+ margin:0;
+ padding:0;
+ box-sizing:border-box;
+}
+
+body{
+ background:#f5f6fa;
+ font-family:system-ui;
+}
+
+h1{
+ text-align:center;
+ margin:20px;
+}
+
+.toolbar{
+ width:900px;
+ margin:auto;
+ padding:10px;
+ background:#222;
+ border-radius:6px;
+ display:flex;
+ gap:10px;
+}
+
+.toolbar button{
+ padding:8px 16px;
+ border:none;
+ background:#4CAF50;
+ color:white;
+ border-radius:4px;
+ cursor:pointer;
+}
+
+.canvas{
+
+ width:900px;
+ height:500px;
+ margin:30px auto;
+ border:2px dashed gray;
+
+ background-image:
+ linear-gradient(#ddd 1px, transparent 1px),
+ linear-gradient(90deg,#ddd 1px, transparent 1px);
+
+ background-size:20px 20px;
+
+ background-color:white;
+
+ position:relative;
+}
